@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background: url("./images/Tech-Page.jpg");
+    background-size:100% 150%;
+    background-repeat: no-repeat;
+    /* background-position:fix; */
+    
+}
+
+#registerForm{
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 20px 15px;
+    width: fit-content;
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px;
+    /* text-align: center; */
+}
+#registerForm h1{
+    text-align: center;
+    height: 55px;
+    font-size: 28px;
+}
+
+#registerForm form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#registerForm table{
+    width: 100%;
+}
+#registerForm table tr{
+    width: auto;
+    height: auto;
+}
+
+#registerForm select{
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+}
+
+#fName, #lName, #email, #password, #country, #signupBtn{
+    padding:8px;
+    width: 300px;
+    margin-block:5px
+}
+
+#fName{
+    background-image: url(./images/user-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position-y: center;
+    background-position-x: 5px;
+    padding-left: 30px;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 5px
+}
+#lName{
+    background-image: url(./images/user-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position-y: center;
+    background-position-x: 5px;
+    padding-left: 30px;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 5px
+}
+#email{
+    background-image: url(./images/envelope-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position-y: center;
+    background-position-x: 5px;
+    padding-left: 30px;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 5px
+}
+#password{
+    background-image: url(./images/lock-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position-y: center;
+    background-position-x: 5px;
+    padding-left: 30px;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 5px
+}
+
+#male, #female{
+    width: 35px;
+    /* background-color: aquamarine; */
+    /* position: relative; */
+    /* margin-left:-25px; */
+    /* left: 10px; */
+}
+
+#signupBtn{
+    background-color: rgb(51,73,96);
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    /* height: 40px; */
+    padding: 8px;
+    font-size: 16px;
+}
+
+@media screen and (max-width:500px){
+    body{
+        /* height: 100%; */
+        /* width: 100%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url("./images/Tech-Page.jpg");
+        background-size: 100% 150%  ;
+        background-repeat: no-repeat;
+        /* background-position:fix; */
+        
+    }
+    #registerForm{
+        margin-left: 0%;
+        /* margin-top: 5%; */
+        padding: 20px 15px;
+        width: fit-content;
+        background-color: #fff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 7px;
+     }
+   
+}
+
+#fbLink{
+    background-color: black;
+    width: fit-content;
+    position:fixed;
+    bottom: 10px;
+    left: 15px;
+    border-radius: 8px;
+    padding: 5px;
+}
+#fbLink a{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+}
